@@ -234,6 +234,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
+# Disable EGL buffer_age extension support
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwui.use_buffer_age=false
+
 # Set sensor streaming rate
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.max_geomag_rotv=60 \
