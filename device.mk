@@ -114,6 +114,10 @@ PRODUCT_PACKAGES := \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Bluetooth HAL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
