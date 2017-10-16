@@ -114,6 +114,10 @@ PRODUCT_PACKAGES := \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Wifi HAL interfaces
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
 # Bluetooth HAL interfaces
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
