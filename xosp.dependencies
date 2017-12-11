@@ -1,0 +1,20 @@
+[
+ {
+   "repository": "BlissRoms-Kernels/android_kernel_lge_hammerhead",
+   "remote": "XOSPD",
+   "branch": "o8.1",
+   "target_path": "kernel/lge/hammerhead"
+ },
+ {
+   "repository": "BlissRoms-Vendor/proprietary_vendor_lge",
+   "remote": "XOSPD",
+   "branch": "o8.1",
+   "target_path": "vendor/lge"
+ },
+ {
+   "repository": "BlissRoms/platform_hardware_broadcom_wlan",
+   "remote": "XOSPD",
+   "branch": "o8.1",
+   "target_path": "hardware/broadcom/wlan"
+ }
+]
